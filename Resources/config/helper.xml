@@ -5,16 +5,14 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
   <parameters>
-
-    <parameter key="templating.helper.emoji.class">NSM\Bundle\EmojiBundle\Helper\EmojiHelper</parameter>
-
+    <parameter key="nsm.emoji.templating.helper.class">NSM\Bundle\EmojiBundle\Helper\EmojiHelper</parameter>
   </parameters>
 
   <services>
 
-    <service id="templating.helper.emoji" class="%templating.helper.emoji.class%" public="false">
+    <service id="nsm.emoji.templating.helper" class="%nsm.emoji.templating.helper.class%" public="false">
       <tag name="templating.helper" alias="emoji" />
-      <argument type="service" id="emoji.parser" />
+      <argument type="service" id="nsm.emoji.parser.max" />
     </service>
 
   </services>
