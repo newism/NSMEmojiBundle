@@ -6,8 +6,6 @@
 
     <parameters>
         <parameter key="nsm_emoji.parser.max.class">NSM\Bundle\EmojiBundle\Parser\Preset\Max</parameter>
-        <parameter key="nsm_emoji.parser.max.url">/bundles/nsmemoji/images/emojis/</parameter>
-        <parameter key="nsm_emoji.parser.max.size">18</parameter>
     </parameters>
 
 
