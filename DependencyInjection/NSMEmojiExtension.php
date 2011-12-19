@@ -29,6 +29,6 @@ class NSMEmojiExtension extends Extension
         $loader->load('helper.xml');
         $loader->load('twig.xml');
 
-        $container->setAlias('emoji.parser', $config['parser']['service']);
+        $container->setAlias('nsm_emoji.parser', $config['parser']['service']);
     }
 }
