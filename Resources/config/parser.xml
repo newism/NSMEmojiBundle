@@ -14,8 +14,8 @@
   <services>
       <service id="nsm_emjoi.parser.max" class="%nsm_emjoi.parser.max.class%">
           <argument>%nsm_emjoi.tokens%</argument>
-          <argument>%nsm_emjoi.max.url%</argument>
-          <argument>%nsm_emjoi.max.size%</argument>
+          <argument>%nsm_emjoi.parser.max.url%</argument>
+          <argument>%nsm_emjoi.parser.max.size%</argument>
       </service>
   </services>
 
