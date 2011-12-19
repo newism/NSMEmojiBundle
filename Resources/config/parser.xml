@@ -5,17 +5,17 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="nsm_emjoi.parser.max.class">NSM\Bundle\EmojiBundle\Parser\Preset\Max</parameter>
-        <parameter key="nsm_emjoi.parser.max.url">/bundles/nsmemoji/images/emojis/</parameter>
-        <parameter key="nsm_emjoi.parser.max.size">18</parameter>
+        <parameter key="nsm_emoji.parser.max.class">NSM\Bundle\EmojiBundle\Parser\Preset\Max</parameter>
+        <parameter key="nsm_emoji.parser.max.url">/bundles/nsmemoji/images/emojis/</parameter>
+        <parameter key="nsm_emoji.parser.max.size">18</parameter>
     </parameters>
 
 
   <services>
-      <service id="nsm_emjoi.parser.max" class="%nsm_emjoi.parser.max.class%">
-          <argument>%nsm_emjoi.tokens%</argument>
-          <argument>%nsm_emjoi.parser.max.url%</argument>
-          <argument>%nsm_emjoi.parser.max.size%</argument>
+      <service id="nsm_emoji.parser.max" class="%nsm_emoji.parser.max.class%">
+          <argument>%nsm_emoji.tokens%</argument>
+          <argument>%nsm_emoji.url%</argument>
+          <argument>%nsm_emoji.size%</argument>
       </service>
   </services>
 

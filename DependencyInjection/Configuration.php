@@ -25,11 +25,11 @@ class Configuration implements ConfigurationInterface
                 ->arrayNode('parser')
                 ->addDefaultsIfNotSet()
                     ->children()
-                        ->scalarNode('service')->cannotBeEmpty()->defaultValue('nsm_emjoi.parser.max')->end()
+                        ->scalarNode('service')->cannotBeEmpty()->defaultValue('nsm_emoji.parser.max')->end()
                     ->end()
                 ->end()
-                ->scalarNode('size')->cannotBeEmpty()->defaultValue('nsm_emjoi.size')->end()
-                ->scalarNode('url')->cannotBeEmpty()->defaultValue('nsm_emjoi.url')->end()
+                ->scalarNode('size')->cannotBeEmpty()->defaultValue('nsm_emoji.parser.max.size')->end()
+                ->scalarNode('url')->cannotBeEmpty()->defaultValue('nsm_emoji.parser.max.url')->end()
             ->end()
         ->end();
 
