@@ -6,7 +6,7 @@
 
   <parameters>
 
-    <parameter key="templating.helper.emoji.class">NSM\EmojiBundle\Helper\EmojiHelper</parameter>
+    <parameter key="templating.helper.emoji.class">NSM\Bundle\EmojiBundle\Helper\EmojiHelper</parameter>
 
   </parameters>
 

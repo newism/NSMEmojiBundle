@@ -1,8 +1,8 @@
 <?php
 
-namespace NSM\EmojiBundle\Twig\Extension;
+namespace NSM\Bundle\EmojiBundle\Twig\Extension;
 
-use NSM\EmojiBundle\Helper\EmojiHelper;
+use NSM\Bundle\EmojiBundle\Helper\EmojiHelper;
 
 class EmojiTwigExtension extends \Twig_Extension
 {

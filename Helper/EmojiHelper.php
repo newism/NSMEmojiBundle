@@ -1,9 +1,9 @@
 <?php
 
-namespace NSM\EmojiBundle\Helper;
+namespace NSM\Bundle\EmojiBundle\Helper;
 
 use Symfony\Component\Templating\Helper\HelperInterface;
-use NSM\EmojiBundle\Parser\EmojiParser;
+use NSM\Bundle\EmojiBundle\Parser\EmojiParser;
 
 class EmojiHelper implements HelperInterface
 {

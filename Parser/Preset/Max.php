@@ -1,8 +1,8 @@
 <?php
 
-namespace NSM\EmojiBundle\Parser\Preset;
+namespace NSM\Bundle\EmojiBundle\Parser\Preset;
 
-use NSM\EmojiBundle\Parser\EmojiParser;
+use NSM\Bundle\EmojiBundle\Parser\EmojiParser;
 
 /**
  * Full featured Emoji Parser

@@ -1,6 +1,6 @@
 <?php
 
-namespace NSM\EmojiBundle\Controller;
+namespace NSM\Bundle\EmojiBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

@@ -1,6 +1,6 @@
 <?php
 
-namespace NSM\Bundle\ EmojiBundle;
+namespace NSM\Bundle\EmojiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
