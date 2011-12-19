@@ -1,6 +1,6 @@
 <?php
 
-namespace NSM\EmojiBundle\DependencyInjection;
+namespace NSM\Bundle\EmojiBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
