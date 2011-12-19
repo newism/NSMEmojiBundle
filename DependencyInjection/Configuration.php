@@ -28,8 +28,8 @@ class Configuration implements ConfigurationInterface
                         ->scalarNode('service')->cannotBeEmpty()->defaultValue('nsm_emoji.parser.max')->end()
                     ->end()
                 ->end()
-                ->scalarNode('size')->cannotBeEmpty()->defaultValue('%nsm_emoji.size%')->end()
-                ->scalarNode('url')->cannotBeEmpty()->defaultValue('%nsm_emoji.url%')->end()
+                ->scalarNode('size')->cannotBeEmpty()->defaultValue('16')->end()
+                ->scalarNode('url')->cannotBeEmpty()->defaultValue('/bundles/nsmemoji/images/emojis/')->end()
             ->end()
         ->end();
 
