@@ -22,7 +22,6 @@ class NSMEmojiExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('emojis.xml');
         $loader->load('parser.xml');
