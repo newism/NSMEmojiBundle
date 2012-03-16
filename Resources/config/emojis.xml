@@ -67,9 +67,9 @@
             <parameter>hankey</parameter>
             <parameter>poop</parameter>
             <parameter>shit</parameter>
-            <parameter>+1</parameter>
+            <parameter type="string">+1</parameter>
             <parameter>thumbsup</parameter>
-            <parameter>-1</parameter>
+            <parameter type="string">-1</parameter>
             <parameter>thumbsdown</parameter>
             <parameter>ok_hand</parameter>
             <parameter>punch</parameter>
