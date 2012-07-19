@@ -1,0 +1,25 @@
+{
+    "name": "newism/nsm-emoji-bundle",
+    "description": "Emjoi Bundle for Symfony2",
+    "keywords": ["emoji", "twig"],
+    "homepage": "https://github.com/newism/NSMEmojiBundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Newism Pty Ltd",
+            "homepage": "http://newism.com.au"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://github.com/newism/NSMEmojiBundle/contributors"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*",
+        "symfony/twig-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "NSM\\Bundle\\EmojiBundle": "" }
+    },
+    "target-dir": "NSM/Bundle/EmojiBundle"
+}
