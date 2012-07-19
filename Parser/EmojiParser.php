@@ -33,14 +33,18 @@ class EmojiParser implements EmojiParserInterface
 
         foreach ($this->emojis as $emoji) {
             $token = ":".$emoji.":";
-            if(false !== strpos($text, $token)) {
+            if (false !== strpos($text, $token)) {
+                if ($emoji === '+1') {
+                    $emoji = 'plus1';
+                }
                 $text = str_replace(
-                    $token, 
+                    $token,
                     '<img class="emoji '.$emoji.'" height="'.$size.'" width="'.$size.'" src="'.$this->assetPath.$emoji.'.png" />',
                     $text
                 );
             }
         }
+
         return $text;
     }
 }
