@@ -2,7 +2,7 @@
 
 namespace NSM\Bundle\EmojiBundle\Parser;
 
-use NSM\Bundle\EmojiBundle\EmojiParserInterface;
+use NSM\Bundle\EmojiBundle\Parser\EmojiParserInterface;
 
 
 /**
